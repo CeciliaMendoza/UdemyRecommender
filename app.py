@@ -38,7 +38,7 @@ def recommend(item_id, num):
 
 @st.cache(allow_output_mutation=True)
 def load_data():
-    df = pd.read_csv("data/Cursos_udemy.csv")
+    df = pd.read_csv("Data/Cursos_udemy.csv")
     df["id"] = df["id"].astype(int)
     df["description"] = df["description"].apply(quitar_html)
     return df
