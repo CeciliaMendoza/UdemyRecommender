@@ -1,4 +1,6 @@
-streamlit
-pandas
-re
-pickle
+streamlit==1.0.0
+pandas==1.3.3
+re==2.2.1
+
+
+
